@@ -1,0 +1,28 @@
+# Dados brutos (nao versionar arquivos grandes ou com restricao de licenca)
+data/raw/
+
+# Ambientes virtuais Python
+venv/
+.venv/
+env/
+.env/
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Arquivos de IDE e sistema
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+
+# Variaveis de ambiente (nunca versionar segredos)
+.env
+*.env.local
+
+# Arquivos temporarios
+*.tmp
+*.log
