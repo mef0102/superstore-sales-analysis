@@ -350,7 +350,7 @@ print("  Grafico 4 salvo: grafico_vendas_vs_lucro_categoria.png")
 # =============================================================================
 print("\nETAPA 11 - Salvando arquivo tratado...")
 
-df.to_csv(arquivo_saida, index=False, sep=";", encoding="utf-8-sig", decimal=".")
+df.to_csv(arquivo_saida, index=False, sep=";", encoding="utf-8-sig", decimal=",")
 
 print(f"Arquivo salvo em: {arquivo_saida}")
 print(f"Total de linhas salvas: {len(df):,}")
